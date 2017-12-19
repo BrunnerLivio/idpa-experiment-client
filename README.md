@@ -19,6 +19,7 @@ npm install
 
 ## Run
 
+Writes Logfile to `~/MyName.json` in CSV format
 ```bash 
-sudo -- sh -c 'KEYLOGGER_PATH=/home/users/USER/keylog.json EVENT_FILE=event5 node ./index.js'
+sudo node index.js MyName
 ```
