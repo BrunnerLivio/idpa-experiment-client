@@ -7,7 +7,7 @@ const path = require('path');
 const NAME = process.argv[2] || 'keylog';
 
 const FILE_PATH = process.env.KEYLOGGER_PATH || `${NAME}.json`;
-const EVENT_FILE = process.env.EVENT_FILE || 'event5';
+const EVENT_FILE = process.env.EVENT_FILE || 'event3';
 const WRITE_TO_FILE_MS = 2 * 1000;
 const HOMEDIR = os.homedir();
 
